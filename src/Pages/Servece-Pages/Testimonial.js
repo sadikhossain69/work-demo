@@ -3,7 +3,7 @@ import CustomerFeedbacks from './CustomerFeedbacks';
 
 const Testimonial = () => {
     return (
-        <div>
+        <div className='my-8'>
             <div className='text-center'>
                 <p className=' bg-base-200 inline p-3 text-primary font-semibold'>
                     Testimonial
