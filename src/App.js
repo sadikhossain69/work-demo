@@ -1,7 +1,12 @@
+import { Route, Routes } from "react-router-dom";
+import Services from "./components/Services";
+
 function App() {
   return (
-    <div className="text-xl text-center">
-      Hello World
+    <div>
+      <Routes>
+        <Route path="/" element={<Services />} />
+      </Routes>
     </div>
   );
 }
