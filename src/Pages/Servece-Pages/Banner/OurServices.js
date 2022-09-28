@@ -1,4 +1,5 @@
 import React from 'react';
+import OurService from './OurService';
 
 const OurServices = () => {
     return (
@@ -11,6 +12,9 @@ const OurServices = () => {
                 <p className='text-center md:px-44'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam totam deserunt sapiente deleniti culpa laboriosam provident labore, molestiae dolorem possimus nostrum, sint consequuntur dicta aliquid sit praesentium? Ratione explicabo doloribus reiciendis animi, officia ullam voluptatem.
                 </p>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:px-36'>
+                    <OurService />
+                </div>
             </section>
         </>
     );
