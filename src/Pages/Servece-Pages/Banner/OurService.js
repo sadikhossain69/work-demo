@@ -11,7 +11,7 @@ import { GrMonitor } from 'react-icons/gr'
 const OurService = () => {
     return (
         <>
-            <div className="card bg-base-100 shadow-xl w-60">
+            <div className="card bg-base-100 shadow-xl w-60 mx-auto">
                 <div className="card-body">
                     <BiCodeBlock className='bg-[#7147c6] text-white p-2'
                         size={50}
@@ -26,7 +26,7 @@ const OurService = () => {
                 </div>
             </div>
 
-            <div className="card bg-base-100 shadow-xl w-60">
+            <div className="card bg-base-100 shadow-xl w-60 mx-auto">
                 <div className="card-body">
                     <MdOutlineBusinessCenter className='bg-[#E2D2FE] p-2 text-blue-900'
                         size={50}
@@ -42,7 +42,7 @@ const OurService = () => {
                 </div>
             </div>
 
-            <div className="card bg-base-100 shadow-xl w-60">
+            <div className="card bg-base-100 shadow-xl w-60 mx-auto">
                 <div className="card-body">
                     <FaProductHunt className='bg-[#E2D2FE] p-2 text-blue-900'
                         size={50}
@@ -58,7 +58,7 @@ const OurService = () => {
                 </div>
             </div>
 
-            <div className="card bg-base-100 shadow-xl w-60">
+            <div className="card bg-base-100 shadow-xl w-60 mx-auto">
                 <div className="card-body">
                     <SiAntdesign className='bg-[#E2D2FE] p-2 text-blue-900'
                         size={50}
@@ -74,7 +74,7 @@ const OurService = () => {
                 </div>
             </div>
 
-            <div className="card bg-base-100 shadow-xl w-60">
+            <div className="card bg-base-100 shadow-xl w-60 mx-auto">
                 <div className="card-body">
                     <FaMapMarkerAlt className='bg-[#E2D2FE] p-2 text-blue-900'
                         size={50}
@@ -90,7 +90,7 @@ const OurService = () => {
                 </div>
             </div>
 
-            <div className="card bg-base-100 shadow-xl w-60">
+            <div className="card bg-base-100 shadow-xl w-60 mx-auto">
                 <div className="card-body">
                     <IoShareSocialSharp className='bg-[#E2D2FE] p-2 text-blue-900'
                         size={50}
@@ -106,7 +106,7 @@ const OurService = () => {
                 </div>
             </div>
 
-            <div className="card bg-base-100 shadow-xl w-60">
+            <div className="card bg-base-100 shadow-xl w-60 mx-auto">
                 <div className="card-body">
                     <BsSearch className='bg-[#E2D2FE] p-2 text-blue-900'
                         size={50}
@@ -122,7 +122,7 @@ const OurService = () => {
                 </div>
             </div>
 
-            <div className="card bg-base-100 shadow-xl w-60">
+            <div className="card bg-base-100 shadow-xl w-60 mx-auto">
                 <div className="card-body">
                     <GrMonitor className='bg-[#E2D2FE] p-2 text-blue-900'
                         size={50}
