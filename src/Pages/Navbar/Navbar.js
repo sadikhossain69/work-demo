@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Logo from '../../assets/3.png'
 
 const Navbar = () => {
     return (
@@ -16,8 +18,9 @@ const Navbar = () => {
                                 <li><a>About</a></li>
                             </ul>
                         </div>
-                        <div className='font-bold text-3xl'>
-                            Dalky
+                        <div className='font-bold text-3xl flex flex-col text-green-800'>
+                            Coderfly
+                            <span className='text-sm'>Digital Agency</span>
                         </div>
                     </div>
                     <div className="navbar-center hidden md:block">
@@ -61,11 +64,8 @@ const Navbar = () => {
 
                     </div>
                     <div className="navbar-end md:space-x-3">
-                        <button className="btn btn-ghost btn-circle">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-                        </button>
                         <div className='hidden md:block'>
-                            <button className='px-3 py-4 bg-primary text-white rounded'>Let's Talk Us</button>
+                            <Link to={'/signup'}><button className='px-3 py-4 bg-primary text-white rounded'>Sign Up</button></Link>
                         </div>
                         <div className="dropdown dropdown-end">
                             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">

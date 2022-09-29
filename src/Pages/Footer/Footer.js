@@ -25,7 +25,7 @@ const Footer = () => {
                             </svg>
                         </div>
                         <span className="self-center text-2xl font-semibold">
-                            Company Name
+                            Coderfly
                         </span>
                     </Link>
                 </div>
@@ -150,7 +150,7 @@ const Footer = () => {
                 © {date}{" "}
                 <Link className="" to="/">
                     {" "}
-                    Neighbour Home
+                    Coderfly
                 </Link>
                 . All rights reserved.
             </div>
