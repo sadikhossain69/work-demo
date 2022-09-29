@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Pages/Footer/Footer';
 import Navbar from '../Pages/Navbar/Navbar';
 import Banner from '../Pages/Servece-Pages/Banner/Banner';
 import OurServices from '../Pages/Servece-Pages/Banner/OurServices';
@@ -13,6 +14,7 @@ const Services = () => {
             <OurServices />
             <Support/>
             <Testimonial />
+            <Footer/>
         </>
     );
 };
