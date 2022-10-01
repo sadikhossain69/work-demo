@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaBitcoin } from 'react-icons/fa';
 import { GrAchievement } from 'react-icons/gr';
 import { GiAchievement } from 'react-icons/gi';
 import pic1 from '../../assets/achievement/pic-1.jpg'
