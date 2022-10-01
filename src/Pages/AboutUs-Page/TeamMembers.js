@@ -1,4 +1,8 @@
 import React from 'react';
+import team1 from '../../assets/team/team-1.png';
+import team2 from '../../assets/team/team-2.jpg';
+import team3 from '../../assets/team/team-3.jpg';
+import team4 from '../../assets/team/team-4.jpg';
 
 const TeamMembers = () => {
     return (
