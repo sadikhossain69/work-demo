@@ -11,7 +11,7 @@ const AboutSection = () => {
                         <img className="object-cover object-center rounded" alt="hero" src={about1} />
                     </div>
                     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                        <p className=' bg-base-200 inline p-3 text-primary font-bold uppercase'>
+                        <p className=' bg-base-200 inline p-3 text-primary font-bold uppercase mb-3'>
                             about us
                         </p>
                         <h1 className="title-font sm:text-4xl text-3xl mb-4 text-[#070424] font-bold">World best All for
