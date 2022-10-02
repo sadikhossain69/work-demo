@@ -6,11 +6,11 @@ const PlanCategorys = () => {
             <section class="text-gray-600 body-font overflow-hidden">
                 <div class="container px-5 py-24 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">
-                        <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Pricing</h1>
-                        <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical.</p>
-                        <div class="flex mx-auto border-2 border-indigo-500 rounded overflow-hidden mt-6">
-                            <button class="py-1 px-4 bg-indigo-500 text-white focus:outline-none">Monthly</button>
-                            <button class="py-1 px-4 focus:outline-none">Annually</button>
+                        <h1 class="sm:text-4xl text-3xl font-bold title-font mb-2 text-gray-900">Choose The Best Plan</h1>
+                        <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Globally actualize premier testing procedures and user-centric e-businass. Holisticly produetivate cross-media care</p>
+                        <div class="flex mx-auto border-2 border-indigo-500 overflow-hidden mt-6 rounded-full">
+                            <button class="py-3 px-6 bg-indigo-500 text-white focus:outline-none">Monthly</button>
+                            <button class="py-3 px-6 focus:outline-none">Yearly</button>
                         </div>
                     </div>
                     <div class="flex flex-wrap -m-4">
