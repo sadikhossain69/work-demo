@@ -1,4 +1,5 @@
 import React from 'react';
+import skill from '../../assets/ourskills/skill-1.jpg'
 
 const OurSkills = () => {
     return (
@@ -16,7 +17,7 @@ const OurSkills = () => {
                         </div>
                     </div>
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                        <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
+                        <img className="object-cover object-center rounded" alt="hero" src={skill}/>
                     </div>
                 </div>
             </section>
