@@ -3,7 +3,7 @@ import React from 'react';
 const OurTeam = () => {
     return (
         <div>
-            <div className='flex-col flex justify-between md:flex-row py-8 md:px-20 px-3'>
+            <div className='flex-col flex justify-between md:flex-row py-8 md:px-20 px-3 mt-5'>
                 <div className='space-y-2'>
                     <p className=' bg-base-200 inline p-3 text-primary font-semibold'>
                         Testimonial
