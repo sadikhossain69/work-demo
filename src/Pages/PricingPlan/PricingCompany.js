@@ -3,7 +3,7 @@ import React from 'react';
 const PricingCompany = () => {
     return (
         <>
-            <section className='my-10 text-center'>
+            <section className='my-10 text-center'> 
                 <div className="stats shadow">
 
                     <div className="stat">
